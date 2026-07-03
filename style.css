@@ -1,0 +1,100 @@
+.poppnis {
+    font-family: 'Poppnis', sans-serif;
+}
+
+.anton {
+    font-family: 'Anton', sans-serif;
+}
+
+.pb {
+    font-family: 'Playball', sans-serif;
+}
+
+.icon-sosmed {
+    transition: 0.3s ease;
+}
+
+.icon-sosmed:hover {
+    transform: scale(1.2) translateY(-5px);
+}
+
+.card-v1 {
+    transition: 0.3s ease;
+}
+
+.card-v1:hover {
+    transform: scale(1.05)
+}
+
+.btn-v1 {
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+
+.btn-v1:hover {
+    width: 150px;
+}
+
+.btn-v3 {
+    transition: 0.3s ease;
+}
+
+.btn-v3:hover {
+    transform: scale(1.1);
+}
+
+.project-scroll::-webkit-scrollbar {
+    width: 6px;
+}
+
+.project-scroll::-webkit-scrollbar-track {
+    background: #293241;
+}
+
+.project-scroll::-webkit-scrollbar-thumb {
+    background: #FFA800;
+    border-radius: 9999px;
+}
+
+
+
+
+/* 🌀 Animasi goyang saat hover */
+@keyframes shake {
+
+    0%,
+    100% {
+        transform: translateX(0);
+    }
+
+    20%,
+    60% {
+        transform: translateX(-8px);
+    }
+
+    40%,
+    80% {
+        transform: translateX(8px);
+    }
+}
+
+/* Jalankan hanya sekali saat hover */
+.hover\:shake:hover {
+    animation: shake 0.5s ease-in-out 1 forwards;
+}
+
+.piece {
+    cursor: pointer;
+    background-repeat: no-repeat;
+    transition: .25s;
+    border-radius: 8px;
+}
+
+.piece:hover {
+    transform: scale(1.05);
+}
+
+.selected {
+    outline: 4px solid #22C55E;
+    transform: scale(1.05);
+}
