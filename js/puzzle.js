@@ -1,11 +1,11 @@
 function puzzlegame() {
     const images = [
-            "../img/puzzle.jpg",
-            "../img/puzzle2.jpg",
-            "../img/puzzle3.jpg",
-            "../img/puzzle4.jpg",
-            "../img/puzzle5.jpg",
-            "../img/puzzle6.jpg"
+            "img/puzzle.jpg",
+            "img/puzzle2.jpg",
+            "img/puzzle3.jpg",
+            "img/puzzle4.jpg",
+            "img/puzzle5.jpg",
+            "img/puzzle6.jpg"
         ];
 
         let currentImage = images[0];
